@@ -8,3 +8,30 @@ venv/
 build/
 dist/
 .DS_Store
+
+# Course submission archives
+**/submission.tar.gz
+
+# Windows metadata files
+*:Zone.Identifier
+
+# Submission archives
+**/submission.tar.gz
+
+# Windows metadata
+*:Zone.Identifier
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Build output
+build/
+dist/
