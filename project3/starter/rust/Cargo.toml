@@ -1,0 +1,8 @@
+[package]
+name = "project3-starter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Course-supplied XML parser, vendored unmodified. You MAY use it or replace it.
+roxmltree = { path = "vendor/roxmltree", default-features = false, features = ["std"] }
